@@ -16,7 +16,7 @@ import Resumepage from './pages/Explore/Resumepage/Resumepage.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path='React-Learning' element={<App/>}>
+    <Route path='React-portpolio' element={<App/>}>
       <Route path='' element={<Home/>}/>
       <Route path='about' element={<About/>}/>
       <Route path='explore' element={<Explore/>}/>
