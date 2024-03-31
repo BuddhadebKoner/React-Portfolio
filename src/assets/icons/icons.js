@@ -11,6 +11,8 @@ import x from './x.png';
 import github from './github.png';
 import Liked from './liked.png';
 import Like from './like.png'
+import Close from './Close.png'
+import Reactgif from './react.gif'
 
 const assets = {
     Donate,
@@ -26,6 +28,8 @@ const assets = {
     github,
     Liked,
     Like,
+    Close,
+    Reactgif,
 };
 
 export default assets;
