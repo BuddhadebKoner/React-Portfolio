@@ -11,7 +11,7 @@
     font-family: 'Nunito';
 }
 
-body{
+body {
     overflow-x: hidden;
     overflow-y: auto;
 }
@@ -34,33 +34,37 @@ button {
     cursor: pointer;
 }
 
-    /* Custom scrollbar */
-    ::-webkit-scrollbar {
-        width: 0px;
-    }
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 0px;
+}
 
-    /* Track */
-    ::-webkit-scrollbar-track {
-        background: #333;
-    }
+/* Track */
+::-webkit-scrollbar-track {
+    background: #333;
+}
 
-    /* Handle */
-    ::-webkit-scrollbar-thumb {
-        background: #555;
-        border-radius: 5px;
-    }
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 5px;
+}
 
-    /* Handle on hover */
-    ::-webkit-scrollbar-thumb:hover {
-        background: #777;
-    }
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #777;
+}
 
-    /* Track when scrollbar is active (scrolling) */
-    ::-webkit-scrollbar-track-piece:end {
-        background-color: #111;
-    }
+/* Track when scrollbar is active (scrolling) */
+::-webkit-scrollbar-track-piece:end {
+    background-color: #111;
+}
 
-    /* Corner */
-    ::-webkit-scrollbar-corner {
-        background: #333;
-    }
+/* Corner */
+::-webkit-scrollbar-corner {
+    background: #333;
+}
+
+.margin-top{
+    margin: 20px;
+}

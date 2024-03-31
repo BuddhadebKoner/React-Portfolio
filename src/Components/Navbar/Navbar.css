@@ -1,5 +1,5 @@
 .navbar-container {
-    /* position: fixed; */
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -10,26 +10,27 @@
     justify-content: space-between;
     padding: 0 19vw;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 999;
 }
 
-.homelogo{
+.homelogo {
     width: 40px;
 }
 
-.nav-links{
+.nav-links {
     width: fit-content;
     height: 100%;
     background-color: transparent;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-
 }
 
-.nav-links >a{
+.nav-links > a {
     margin: 10px 10px;
 }
-.super{
+
+.super {
     width: 199px;
     height: fit-content;
     background-color: #ff5f5f ;
@@ -41,8 +42,13 @@
     flex-direction: row;
     box-sizing: border-box;
 }
-.super:hover{
+
+.super:hover {
     background-color: #fff;
     color: black;
     border: 1px solid black;
+}
+
+.content {
+    margin-top: 65px; 
 }
