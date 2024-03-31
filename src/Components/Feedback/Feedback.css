@@ -17,7 +17,7 @@
     transition: height 0.3s ease;
     display: flex;
     align-items: start;
-    justify-content: center;
+    justify-content: start;
     flex-direction: column; 
 }
 
@@ -69,14 +69,20 @@
 .checkbox-container {
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-top: 10px;
+    justify-content: start;
+    margin: 10px 10px;
     gap: 10px;
+}
+.feedback-btn-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .feedback-btn {
     text-align: center;
-    width: 95%;
+    width: 90%;
     background-color: #ff5f5f !important;
     color: white;
     padding: 10px;

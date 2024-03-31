@@ -3,6 +3,10 @@ import './Getstarted.css'
 
 export default function Getstarted() {
   return (
-    <div>Getstarted</div>
+  <>
+  <div className="getstarted-main-container">
+    <h1>Under Mentenence</h1>
+  </div>
+  </>
   )
 }
