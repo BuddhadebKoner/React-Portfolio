@@ -9,6 +9,14 @@ export default function Feednavbar() {
     <>
       <div className="feednavbar-container">
         <NavLink
+          to={"/React-portpolio/explore"}
+          className={({ isActive, isPending }) =>
+            isActive ? "nav-links-active" : "nav-links-normal"
+          }
+        >
+          My Post
+        </NavLink>
+        <NavLink
           to={"/React-portpolio/resumepage"}
           className={({ isActive, isPending }) =>
             isActive ?"nav-links-active" : "nav-links-normal"
@@ -34,6 +42,7 @@ export default function Feednavbar() {
         >
           Feedback
         </NavLink>
+
       </div>
     </>
   )

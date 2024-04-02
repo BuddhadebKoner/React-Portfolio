@@ -22,12 +22,12 @@ export default function Navbar() {
           </NavLink>
 
           <NavLink
-            to={"explore"}
+            to={"newsfeed"}
             className={({ isActive, isPending }) =>
               isActive ? "nav-links-active" : "nav-links-normal"
             }
           >
-            Explore
+            News
           </NavLink>
 
           <NavLink

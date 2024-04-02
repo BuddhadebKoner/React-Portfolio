@@ -2,6 +2,7 @@ import img1 from './img1.jpeg';
 import img2 from './img3.jpeg';
 import img3 from './img2.jpeg';
 import img4 from './img4.jpeg';
+import img5 from './img5.jpeg'
 
 import facebook from './mediaimg/facebook.png'
 import instagram from './mediaimg/instagram.png'
@@ -9,7 +10,17 @@ import x from './mediaimg/x.png'
 import linkedin from './mediaimg/linkedin.png'
 
 export const assets = {
-    post1: {
+    post5: {
+        title: "Pro Tips & Tricks",
+        date: "31 March 2024",
+        image: img5,
+        description: "Dive into JavaScript's hidden treasures with these 10 expert tips! 💎 Unlock the power of code creativity. Credit to @ChatGPT.",
+        links: "https://www.linkedin.com/feed/update/urn:li:activity:7179686817972072449/",
+        profilelink: "https://www.linkedin.com/in/buddhadeb-koner-8501b3231/",
+        media: linkedin,
+        likes: 0,
+    },
+    post4: {
         title: "Ubantu 22.10",
         date: "23 March 2024",
         image: img1,
@@ -19,17 +30,17 @@ export const assets = {
         media: linkedin,
         likes: 0,
     },
-    post2: {
+    post3: {
         title: "Lets contribute in Open Souse",
         date: "27 March 2024",
         image: img2,
-        description: "🌟 Seeking Open Source Mentorship Dear connections, I'm new to open-source and would love to learn from experienced software enginee like you. Any tips or advice you could share would be greatly appreciated. Let connect and embark on this journey together!",
+        description: "🌟 Seeking Open Source Mentorship Dear connections, I'm new to open-source and would love to learn from experienced software engineer like you. Any tips or advice you could share would be greatly appreciated. Let connect and embark on this journey together!",
         links: "https://x.com/buddhadeb_koner/status/1773667227218178145?t=Qou96v25V7na_-VzTvrCaA&s=09",
         profilelink: "",
         media: x,
         likes: 0,
     },
-    post3: {
+    post2: {
         title: "Food Delivery WebApp Only UI",
         date: "20 Jan 2024",
         image: img3,
@@ -39,7 +50,7 @@ export const assets = {
         media: linkedin,
         likes: 0,
     },
-    post4: {
+    post1: {
         title: "Lets Enjoy Life",
         date: "27 sept 2023",
         image: img4,

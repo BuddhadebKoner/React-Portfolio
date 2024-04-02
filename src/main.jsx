@@ -12,6 +12,8 @@ import Feedback from './Components/Feedback/Feedback.jsx';
 import Github from './pages/Github/Github.jsx';
 import Resumepage from './pages/Explore/Resumepage/Resumepage.jsx';
 import Aboutwebinfo from './pages/Aboutwebinfo/Aboutwebinfo.jsx';
+import Newsfeed from './Components/Newsfeed/Newsfeed.jsx';
+import Newsfeedpage from './pages/Newsfeedpage/Newsfeedpage.jsx';
 
 
 const Main = () => {
@@ -42,6 +44,7 @@ const Main = () => {
         <Route path='github' element={<Github/>}/>
         <Route path='resumepage' element={<Resumepage/>}/>
         <Route path='aboutwebinfo' element={<Aboutwebinfo/>}/>
+        <Route path='newsfeed' element={<Newsfeedpage/>}/>
       </Route>
     )
   );

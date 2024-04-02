@@ -6,12 +6,14 @@ import FeedSection from '../../Components/FeedSection/FeedSection'
 import AboutCard from '../../Components/Aboutcard/Aboutcard'
 import Feedback from '../../Components/Feedback/Feedback'
 import Mypost from '../../Components/Mypost/Mypost'
+import Newsfeed from '../../Components/Newsfeed/Newsfeed'
+import Currentprojectpage from '../Currentprojectpage/Currentprojectpage'
 
 export default function Home() {
   return (
     <>
       <Hero />
-      <Mypost/>
+      <Currentprojectpage/>
     </>
   )
 }
