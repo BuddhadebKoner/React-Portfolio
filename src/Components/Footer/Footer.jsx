@@ -13,8 +13,8 @@ export default function Footer() {
             <br/>
             <div className="creadit-links">
             1. <a href="https://www.youtube.com/@KG_Coding" target='blank'>Prasant Sir</a> &nbsp;
-            2. <a href="https://www.youtube.com/@ThapaTechnical">Thapa Sir</a> &nbsp;
-            3. <a href="https://www.youtube.com/@chaiaurcode">Hitesh Sir</a>&nbsp;
+            2. <a href="https://www.youtube.com/@ThapaTechnical" target='blank'>Thapa Sir</a> &nbsp;
+            3. <a href="https://www.youtube.com/@chaiaurcode" target='blank'>Hitesh Sir</a>&nbsp;
             </div>
           </p>
         </div>

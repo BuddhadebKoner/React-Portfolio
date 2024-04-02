@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+// import axios from '../../ axiosConfig';
 import axios from 'axios';
 import './Newsfeed.css'
 
@@ -84,7 +85,7 @@ export default function Newsfeed() {
         
         <div className="main-news-box">
             <div className="container">
-                <h1>Stay Updated About India</h1>
+                <h1 className='main-heading' >Stay Updated About India</h1>
                 <div className="feed">
                     {isLoading && <SkeletonLoader />}
                     {articles.map((article, index) => (

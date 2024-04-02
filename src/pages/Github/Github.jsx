@@ -10,10 +10,12 @@ export default function Github() {
         <div className="github-container">
           <h2>Explore</h2>
           <>
-            <h1 align="center">
-              <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=👋+Hello,+Future+Collaborator!;🇮🇳+i'am+Buddhadeb+Koner;" />
+            <h1 align="center" >
+              <img className='headline-style' src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=👋+Hello,+Future+Collaborator!;🇮🇳+i'am+Buddhadeb+Koner;" />
             </h1>
-            <p align="center" dangerouslySetInnerHTML={{ __html: Resume.githubdata.desc }}></p>
+            <p 
+            className='dece-paragraph'
+            align="center" dangerouslySetInnerHTML={{ __html: Resume.githubdata.desc }}></p>
 
             <br />
             <h2 className='margin-top'>Known  Technologysnpm</h2>
@@ -28,7 +30,7 @@ export default function Github() {
             </div>
 
             <h2 className='margin-top'>Commits</h2>
-            <div align="center">
+            <div className='commits-github' >
               <img
                 src="https://github-readme-streak-stats.herokuapp.com/?user=BuddhadebKoner&theme=dark&hide_border=false"
                 alt=""

@@ -13,6 +13,7 @@ import Liked from './liked.png';
 import Like from './like.png'
 import Close from './Close.png'
 import Reactgif from './react.gif'
+import more from './more.png'
 
 const assets = {
     Donate,
@@ -30,6 +31,7 @@ const assets = {
     Like,
     Close,
     Reactgif,
+    more,
 };
 
 export default assets;

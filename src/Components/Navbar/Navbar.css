@@ -1,5 +1,4 @@
 .navbar-container {
-    /* position: fixed; */
     top: 0;
     left: 0;
     width: 100%;
@@ -23,7 +22,8 @@
     background-color: transparent;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    /* display: none; */
 }
 
 .nav-links > a {
@@ -51,4 +51,8 @@
 
 .content {
     margin-top: 65px; 
+}
+.navbar-toggle img{
+    display: none;
+    width: 30px;
 }
