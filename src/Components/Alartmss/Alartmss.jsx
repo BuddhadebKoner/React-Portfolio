@@ -23,7 +23,6 @@ export default function App() {
                     </div>
                 </div>
             )}
-            <div>Other content of your App component</div>
         </>
     );
 }

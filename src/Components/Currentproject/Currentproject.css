@@ -33,6 +33,7 @@
   }
   
   .project-card a {
+    width: fit-content;
     display: block;
     color: #007bff;
     text-decoration: none;

@@ -12,8 +12,8 @@ import github from './github.png';
 import Liked from './liked.png';
 import Like from './like.png'
 import Close from './Close.png'
-import Reactgif from './react.gif'
 import more from './more.png'
+import GpayQR from './GPayQR.svg'
 
 const assets = {
     Donate,
@@ -30,7 +30,7 @@ const assets = {
     Liked,
     Like,
     Close,
-    Reactgif,
+    GpayQR,
     more,
 };
 

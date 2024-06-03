@@ -79,7 +79,7 @@ export default function Profile() {
                     </div>
                 </div>
             </div>
-            {showModal && <Model onClose={toggleModal} />} {/* Render the modal if showModal is true */}
+            {showModal && <Model onClose={toggleModal} />}
         </>
     );
 }

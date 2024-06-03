@@ -2,14 +2,24 @@ import img1 from './img1.jpeg';
 import img2 from './img3.jpeg';
 import img3 from './img2.jpeg';
 import img4 from './img4.jpeg';
-import img5 from './img5.jpeg'
+import img5 from './img5.jpeg';
+import img6 from './img6.jpeg';
 
-import facebook from './mediaimg/facebook.png'
 import instagram from './mediaimg/instagram.png'
 import x from './mediaimg/x.png'
 import linkedin from './mediaimg/linkedin.png'
 
 export const assets = {
+    post6: {
+        title: "We are a team",
+        date: "3 June 2024",
+        image: img6,
+        description: "United in team, unstoppable in spirit! When we come together, we achieve greatness beyond imagination.",
+        links: "https://www.linkedin.com/feed/update/urn:li:activity:7203268806801039360?utm_source=share&utm_medium=member_desktop",
+        profilelink: "https://www.linkedin.com/in/debesh-mondal-999167296/",
+        media: linkedin,
+        likes: 0,
+    },
     post5: {
         title: "Pro Tips & Tricks",
         date: "31 March 2024",

@@ -14,7 +14,7 @@ export default function Webinfo() {
           <ol className="webinfo-list">
             <li className="webinfo-list-item">Clone the repository to your local machine:</li>
           </ol>
-          <pre className="webinfo-code"><code>git clone https://github.com/buddhadebkoner/React-Portfolio.git</code></pre>
+          <pre className="webinfo-code"><code>git clone https://github.com/BuddhadebKoner/React-Portfolio.git</code></pre>
         </div>
         <div className="webinfo-section">
           <h2 className="webinfo-section-title">Navigate to the project directory</h2>

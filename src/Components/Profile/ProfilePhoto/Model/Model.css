@@ -33,8 +33,10 @@
     margin-right: 20px;
 }
 
-.react-gif-image{
+.GPayQR{
     width: 300px;
+    pointer-events: none;
+    user-select: none;
 }
 
 .donate-details-section{
@@ -46,6 +48,18 @@
     flex-direction: column;
 }
 
-.donate-details-section h1{
+.close-btn-container{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: end;
+}
+
+.donate-details-section p{
+    font-size: 1rem
+}
+
+.donate-details-section h3{
+    font-size: 2rem;
     color: black;
 }

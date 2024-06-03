@@ -10,13 +10,13 @@ const Currentproject = () => {
       <div className="current-project-container">
         <h2>{welcomeMessage}</h2>
         <p>{introduction}</p>
-
+        
         {projects.map((project, index) => (
           <div key={index} className="project-card">
             <h3>{project.title}</h3>
             <p>{project.description}</p>
             <p>{project.technologiesUsed}</p>
-            <a href={project.projectLink}>See Project</a>
+            <a href={project.projectLink} target='_blank'>See Project</a>
           </div>
         ))}
       </div>

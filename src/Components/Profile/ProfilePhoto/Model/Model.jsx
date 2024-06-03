@@ -7,12 +7,13 @@ export default function Model({ onClose }) {
         <>
             <div className="modal">
                 <div className="modal-content">
-                    <button className="close-btn" onClick={onClose}>
-                        <img className='close-btn-image' src={assets.Close} alt="" />
-                    </button>
+                    <div className="close-btn-container">
+                        <button className="close-btn" onClick={onClose}><img className='close-btn-image' src={assets.Close} alt="" /></button>
+                    </div>
                     <div className="donate-details-section">
-                        <h1>Under Mentenence</h1>
-                        <img className='react-gif-image' src={assets.Reactgif} alt="" />
+                        <h3>Buy me a coffee</h3>
+                        <img className='GPayQR' src={assets.GpayQR} alt="" />
+                        <p>Donations are voluntary please donate responsibly.</p>
                     </div>
                 </div>
             </div>
