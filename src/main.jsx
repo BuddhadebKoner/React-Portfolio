@@ -12,7 +12,6 @@ import Feedback from './Components/Feedback/Feedback.jsx';
 import Github from './pages/Github/Github.jsx';
 import Resumepage from './pages/Explore/Resumepage/Resumepage.jsx';
 import Aboutwebinfo from './pages/Aboutwebinfo/Aboutwebinfo.jsx';
-import Newsfeed from './Components/Newsfeed/Newsfeed.jsx';
 import Newsfeedpage from './pages/Newsfeedpage/Newsfeedpage.jsx';
 
 
