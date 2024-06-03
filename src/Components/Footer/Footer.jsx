@@ -45,7 +45,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; 2024 Company Name. All Rights Reserved.</p>
+        <p>&copy; 2024 Buddhadeb Portfolio. All Rights Reserved.</p>
       </div>
     </footer>
   );
