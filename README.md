@@ -2,7 +2,7 @@
 
 Welcome to my React portfolio website! This repository contains the code for my personal portfolio website built using React and Vite.
 
-You can view the live website [here](https://buddhadebkoner.github.io/React-portpolio/).
+You can view the live website [here](https://buddhadebkoner.github.io/React-Portfolio/).
 
 ## Installation
 
@@ -11,12 +11,12 @@ To run this project locally, follow these steps:
 1. Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/buddhadebkoner/React-portpolio.git
+git clone https://github.com/buddhadebkoner/React-Portfolio.git
 ```
 ## Navigate to the project directory:
 
 ```bash
-cd React-portpolio
+cd React-Portfolio
 ```
 
 ## Install dependencies using npm:
