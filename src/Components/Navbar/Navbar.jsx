@@ -1,7 +1,9 @@
 import React from 'react'
-import './Navbar.css'
 import assets from '../../assets/icons/icons'
 import { Link, NavLink } from 'react-router-dom'
+// styles are here
+import '../../Styles//Navbar.css'
+
 
 export default function Navbar() {
   return (

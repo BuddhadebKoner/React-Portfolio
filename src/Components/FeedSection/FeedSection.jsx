@@ -1,8 +1,9 @@
 import React from 'react'
-import './FeedSection.css'
 import Mypost from '../Mypost/Mypost'
 import Aboutcard from '../Aboutcard/Aboutcard'
 import Feedback from '../Feedback/Feedback'
+
+import '../../Styles/FeedSection.css'
 
 export default function FeedSection() {
     return (

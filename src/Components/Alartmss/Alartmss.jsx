@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Alartmss.css'
+import '../../Styles/Alartmss.css'
 
 
 

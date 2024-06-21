@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
-import './Profile.css';
 import ProfilePhoto from './ProfilePhoto/ProfilePhoto';
 import assets from '../../assets/icons/icons';
 import { documentdata } from '../../assets/documentdata';
 import { NavLink } from 'react-router-dom';
 import Model from './ProfilePhoto/Model/Model';
+
+
+// styles are here 
+import '../../Styles/Profile.css';
 
 export default function Profile() {
     const [showlinks, setShowLinks] = useState(false);

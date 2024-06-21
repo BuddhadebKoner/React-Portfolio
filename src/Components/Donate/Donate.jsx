@@ -1,5 +1,7 @@
 import React from 'react'
-import './Donate.css'
+
+
+import '../../Styles/Donate.css'
 
 export default function Donate() {
   return (

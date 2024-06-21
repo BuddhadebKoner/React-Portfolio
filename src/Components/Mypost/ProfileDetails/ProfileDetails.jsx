@@ -1,7 +1,7 @@
 import React from 'react'
-import './ProfileDetails.css'
 import assets from '../../../assets/icons/icons';
 
+import '../../../Styles/ProfileDetails.css'
 
 
 export default function ProfileDetails(props) {

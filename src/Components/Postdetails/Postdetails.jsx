@@ -1,8 +1,10 @@
 import React from 'react';
 import Likebtn from '../Likebtn/Likebtn';
-import './Postdetails.css';
 import ProfileDetails from '../Mypost/ProfileDetails/ProfileDetails';
 import { assets, numberOfAssets } from '../../assets/postimg/postimg';
+
+// styles are here
+import '../../Styles/Postdetails.css';
 
 export default function Postdetails() {
     const [posts, setPosts] = React.useState([]);

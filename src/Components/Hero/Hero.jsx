@@ -1,8 +1,10 @@
 import React from 'react'
-import './Hero.css'
 import Profile from '../Profile/Profile'
 import Feednavbar from '../Feednavbar/Feednavbar'
 import assets from '../../assets/icons/icons'
+
+// styles are here
+import '../../Styles/Hero.css'
 
 export default function Hero() {
     return (

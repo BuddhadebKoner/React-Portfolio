@@ -1,6 +1,6 @@
 import React from 'react';
 import currentpagecontent from '../../assets/documentdata.js';
-import './Currentproject.css'; // Import your CSS file for styling
+import '../../Styles/Currentproject.css';
 
 const Currentproject = () => {
   const { welcomeMessage, introduction, projects } = currentpagecontent;

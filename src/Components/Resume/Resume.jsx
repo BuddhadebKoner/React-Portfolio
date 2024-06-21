@@ -1,6 +1,8 @@
 import React from 'react';
-import './Resume.css'
 import resumeData from '../../assets/Resume';
+
+// Styles are here 
+import '../../Styles/Resume.css'
 
 export default function Resume() {
     return (

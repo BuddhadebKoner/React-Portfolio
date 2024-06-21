@@ -1,6 +1,8 @@
 import React from 'react'
-import './Model.css'
 import assets from '../../../../assets/icons/icons'
+
+// styles are here 
+import '../../../../Styles/Model.css'
 
 export default function Model({ onClose }) {
     return (

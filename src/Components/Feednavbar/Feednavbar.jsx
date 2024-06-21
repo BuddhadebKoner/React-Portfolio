@@ -1,5 +1,5 @@
 import React from 'react'
-import './Feednavbar.css'
+import '../../Styles/Feednavbar.css'
 import { NavLink } from 'react-router-dom'
 
 export default function Feednavbar() {

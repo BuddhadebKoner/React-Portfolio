@@ -1,5 +1,7 @@
 import React from 'react';
-import './Webinfo.css';
+
+// styles are here 
+import '../../Styles/Webinfo.css';
 
 export default function Webinfo() {
   return (

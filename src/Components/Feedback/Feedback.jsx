@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useForm, ValidationError } from '@formspree/react';
-import './Feedback.css';
+import '../../Styles/Feedback.css';
 import Hero from '../Hero/Hero';
 
 export default function Feedback() {

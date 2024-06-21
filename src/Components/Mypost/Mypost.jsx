@@ -1,7 +1,10 @@
 import React from 'react'
-import './Mypost.css'
 // import ProfileDetails from './ProfileDetails/ProfileDetails'
 import Postdetails from '../Postdetails/Postdetails'
+
+
+// styles are here 
+import '../../Styles/Mypost.css'
 
 export default function Mypost() {
   return (

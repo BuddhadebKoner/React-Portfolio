@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 // import axios from '../../ axiosConfig';
 import axios from 'axios';
-import './Newsfeed.css'
+
+// styles are here
+import '../../Styles/Newsfeed.css'
 
 export default function Newsfeed() {
 
