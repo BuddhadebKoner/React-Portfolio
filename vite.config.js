@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 //ExploreBuddhadebKoner
 export default defineConfig({
-  base: "/ExploreBuddhadebKoner",
+  // base: "/ExploreBuddhadebKoner",
   plugins: [react()],
 })
 // React-LearningReact-Learning

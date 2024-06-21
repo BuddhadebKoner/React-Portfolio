@@ -61,7 +61,7 @@ export default function Profile() {
 
                     <div className="">
                         <NavLink
-                            to={'/ExploreBuddhadebKoner/aboutwebinfo'}
+                            to={'/aboutwebinfo'}
                             className='threedot-btn hover-btn'
                             onMouseEnter={handleMouseEnter}
                             onMouseLeave={handleMouseLeave}

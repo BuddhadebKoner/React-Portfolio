@@ -23,7 +23,7 @@ const Main = () => {
       const lastVisitedPath = localStorage.getItem('lastVisitedPath');
       if (!lastVisitedPath || lastVisitedPath === '/') {
         // Redirect to '/ExploreBuddhadebKoner'
-        window.location.href = '/ExploreBuddhadebKoner';
+        window.location.href = './';
       }
     }
 
@@ -33,7 +33,7 @@ const Main = () => {
 
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path='ExploreBuddhadebKoner' element={<App/>}>
+      <Route path='/' element={<App/>}>
         <Route path='' element={<Home/>}/>
         <Route path='about' element={<About/>}/>
         <Route path='explore' element={<Explore/>}/>

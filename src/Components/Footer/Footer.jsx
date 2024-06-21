@@ -25,7 +25,7 @@ export default function Footer() {
               <Link to={""}>Home</Link>
             </li>
             <li>
-              <Link to={"/ExploreBuddhadebKoner/about"}>About</Link>
+              <Link to={"/about"}>About</Link>
             </li>
             <li>
               <Link to={""}>Services</Link>

@@ -9,7 +9,7 @@ export default function Feednavbar() {
     <>
       <div className="feednavbar-container">
         <NavLink
-          to={"/ExploreBuddhadebKoner/explore"}
+          to={"/explore"}
           className={({ isActive, isPending }) =>
             isActive ? "nav-links-active" : "nav-links-normal"
           }
@@ -17,7 +17,7 @@ export default function Feednavbar() {
           My Post
         </NavLink>
         <NavLink
-          to={"/ExploreBuddhadebKoner/resumepage"}
+          to={"/resumepage"}
           className={({ isActive, isPending }) =>
             isActive ?"nav-links-active" : "nav-links-normal"
           }
@@ -26,7 +26,7 @@ export default function Feednavbar() {
         </NavLink>
 
         <NavLink
-          to={"/ExploreBuddhadebKoner/about"}
+          to={"/about"}
           className={({ isActive, isPending }) =>
             isActive ? "nav-links-active" : "nav-links-normal"
           }
@@ -35,7 +35,7 @@ export default function Feednavbar() {
         </NavLink>
 
         <NavLink
-          to={"/ExploreBuddhadebKoner/feedback"}
+          to={"/feedback"}
           className={({ isActive, isPending }) =>
             isActive ? "nav-links-active" : "nav-links-normal"
           }
