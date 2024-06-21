@@ -2,9 +2,9 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
-//React-Portfolio
+//ExploreBuddhadebKoner
 export default defineConfig({
-  base: "/React-Portfolio",
+  base: "/ExploreBuddhadebKoner",
   plugins: [react()],
 })
 // React-LearningReact-Learning

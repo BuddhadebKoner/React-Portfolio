@@ -22,8 +22,8 @@ const Main = () => {
       // Check if localStorage has the last visited path
       const lastVisitedPath = localStorage.getItem('lastVisitedPath');
       if (!lastVisitedPath || lastVisitedPath === '/') {
-        // Redirect to '/React-Portfolio'
-        window.location.href = '/React-Portfolio';
+        // Redirect to '/ExploreBuddhadebKoner'
+        window.location.href = '/ExploreBuddhadebKoner';
       }
     }
 
@@ -33,7 +33,7 @@ const Main = () => {
 
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path='React-Portfolio' element={<App/>}>
+      <Route path='ExploreBuddhadebKoner' element={<App/>}>
         <Route path='' element={<Home/>}/>
         <Route path='about' element={<About/>}/>
         <Route path='explore' element={<Explore/>}/>

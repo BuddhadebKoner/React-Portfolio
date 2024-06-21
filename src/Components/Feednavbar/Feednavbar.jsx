@@ -9,7 +9,7 @@ export default function Feednavbar() {
     <>
       <div className="feednavbar-container">
         <NavLink
-          to={"/React-Portfolio/explore"}
+          to={"/ExploreBuddhadebKoner/explore"}
           className={({ isActive, isPending }) =>
             isActive ? "nav-links-active" : "nav-links-normal"
           }
@@ -17,7 +17,7 @@ export default function Feednavbar() {
           My Post
         </NavLink>
         <NavLink
-          to={"/React-Portfolio/resumepage"}
+          to={"/ExploreBuddhadebKoner/resumepage"}
           className={({ isActive, isPending }) =>
             isActive ?"nav-links-active" : "nav-links-normal"
           }
@@ -26,7 +26,7 @@ export default function Feednavbar() {
         </NavLink>
 
         <NavLink
-          to={"/React-Portfolio/about"}
+          to={"/ExploreBuddhadebKoner/about"}
           className={({ isActive, isPending }) =>
             isActive ? "nav-links-active" : "nav-links-normal"
           }
@@ -35,7 +35,7 @@ export default function Feednavbar() {
         </NavLink>
 
         <NavLink
-          to={"/React-Portfolio/feedback"}
+          to={"/ExploreBuddhadebKoner/feedback"}
           className={({ isActive, isPending }) =>
             isActive ? "nav-links-active" : "nav-links-normal"
           }

@@ -25,7 +25,7 @@ export default function Footer() {
               <Link to={""}>Home</Link>
             </li>
             <li>
-              <Link to={"/React-Portfolio/about"}>About</Link>
+              <Link to={"/ExploreBuddhadebKoner/about"}>About</Link>
             </li>
             <li>
               <Link to={""}>Services</Link>
