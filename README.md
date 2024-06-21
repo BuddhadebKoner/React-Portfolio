@@ -12,13 +12,10 @@ This project leverages a variety of powerful libraries and frameworks to deliver
 - **@gsap/react**: "^2.1.1" – Bringing animations to life.
 - **axios**: "^1.6.8" – Simplified HTTP requests.
 - **lenis**: "^1.1.3" – Smooth scroll experiences.
-- **LocalStorage**: "^1.10.0" – Offline storage for a robust app.
-- **match-sorter**: "^6.3.4" – Intuitive sorting and filtering.
 - **react**: "^18.2.0" – The core of our UI.
 - **react-dom**: "^18.2.0" – DOM binding for React.
 - **react-router-dom**: "^6.22.3" – Navigational components for React.
 - **react-scrollbars-custom**: "^4.1.1" – Customizable scrollbars.
-- **sort-by**: "^1.2.0" – Simple sorting utility.
 
 ## Contributing
 
