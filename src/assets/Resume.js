@@ -26,7 +26,12 @@ const resumeData = {
     "Gsap Animation Library",
     "Python",
     "Git",
+    "Django",
+    "Express.js",
+    "Vercel",
+    "Ubuntu"
   ],
+  
   contact: {
     email: "iambuddhadebkoner@gmail.com",
     linkedin: "https://www.linkedin.com/in/buddhadeb-koner-8501b3231/"
@@ -42,7 +47,7 @@ const githubdata = {
     🌱 Currently immersed in the world of Python web development <br />
     💬 Ask me about Content creation <br />⚡ Fun fact: Follow me now for
     exciting updates!`,
-  language: "html,css,javascript,c,cpp,python,mysql,php,linux,git,vscode,figma,react"
+  language: "javascript,c,cpp,python,django,git,figma,react,nodejs,expressjs,mongo,vercel,ubuntu"
 }
 
 export default {

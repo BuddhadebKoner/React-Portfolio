@@ -13,10 +13,9 @@ export default function Github() {
             <h1 align="center" >
               <img className='headline-style' src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=👋+Hello,+Future+Collaborator!;🇮🇳+i'am+Buddhadeb+Koner;" />
             </h1>
-            <p 
-            className='dece-paragraph'
-            align="center" dangerouslySetInnerHTML={{ __html: Resume.githubdata.desc }}></p>
-
+            <p
+              className='dece-paragraph'
+              align="center" dangerouslySetInnerHTML={{ __html: Resume.githubdata.desc }}></p>
             <br />
             <h2 className='margin-top'>Known  Technologysnpm</h2>
             <div align="center" className='langiage-icons'>
