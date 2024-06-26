@@ -4,12 +4,24 @@ import img3 from './img2.jpeg';
 import img4 from './img4.jpeg';
 import img5 from './img5.jpeg';
 import img6 from './img6.jpeg';
+import img7 from './img7.jpeg';
 
 import instagram from './mediaimg/instagram.png'
 import x from './mediaimg/x.png'
 import linkedin from './mediaimg/linkedin.png'
 
 export const assets = {
+    post7: {
+        title: "World Yoga Day",
+        date: "21 June 2024",
+        image: img7,
+        description: "Bending under the stars and lights, finding balance in nature. 🌟🌳 #Arch",
+        links: "https://www.instagram.com/p/C8cSJTGSB0o/?img_index=1",
+        profilelink: "https://www.instagram.com/p/C8cSJTGSB0o/?img_index=1",
+        media: instagram,
+        likes: 0,
+    },
+
     post6: {
         title: "We are a team",
         date: "3 June 2024",

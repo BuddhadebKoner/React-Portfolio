@@ -16,6 +16,7 @@ This project leverages a variety of powerful libraries and frameworks to deliver
 - **react-dom**: "^18.2.0" – DOM binding for React.
 - **react-router-dom**: "^6.22.3" – Navigational components for React.
 - **react-scrollbars-custom**: "^4.1.1" – Customizable scrollbars.
+- **react-helmet"**: "^6.1.0 – Title optimization.
 
 ## Contributing
 
