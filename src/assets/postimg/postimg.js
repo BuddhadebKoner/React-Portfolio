@@ -1,10 +1,10 @@
-import img1 from './img1.jpeg';
-import img2 from './img3.jpeg';
-import img3 from './img2.jpeg';
-import img4 from './img4.jpeg';
-import img5 from './img5.jpeg';
-import img6 from './img6.jpeg';
-import img7 from './img7.jpeg';
+const img1 = 'https://i.ibb.co/YN9TBD3/img7.webp'
+const img2 ='https://i.ibb.co/10q2XB5/img6.jpg'
+const img3 ='https://i.ibb.co/S5qK4qH/img5.jpg'
+const img4 ='https://i.ibb.co/f1cRzPr/img4.jpg'
+const img5 ='https://i.ibb.co/3m2YjW6/img3.jpg'
+const img6 ='https://i.ibb.co/pfPvtYT/img2.jpg'
+const img7 ='https://i.ibb.co/NWS58yL/img1.jpg'
 
 import instagram from './mediaimg/instagram.png'
 import x from './mediaimg/x.png'
