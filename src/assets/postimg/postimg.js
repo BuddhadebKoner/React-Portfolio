@@ -1,23 +1,34 @@
-const img1 = 'https://i.ibb.co/YN9TBD3/img7.webp'
-const img2 ='https://i.ibb.co/10q2XB5/img6.jpg'
-const img3 ='https://i.ibb.co/S5qK4qH/img5.jpg'
-const img4 ='https://i.ibb.co/f1cRzPr/img4.jpg'
-const img5 ='https://i.ibb.co/3m2YjW6/img3.jpg'
-const img6 ='https://i.ibb.co/pfPvtYT/img2.jpg'
-const img7 ='https://i.ibb.co/NWS58yL/img1.jpg'
+const img1 = 'https://i.ibb.co/NWS58yL/img1.jpg'
+const img2 = 'https://i.ibb.co/pfPvtYT/img2.jpg'
+const img3 = 'https://i.ibb.co/3m2YjW6/img3.jpg'
+const img4 = 'https://i.ibb.co/f1cRzPr/img4.jpg'
+const img5 = 'https://i.ibb.co/S5qK4qH/img5.jpg'
+const img6 = 'https://i.ibb.co/10q2XB5/img6.jpg'
+const img7 = 'https://i.ibb.co/YN9TBD3/img7.webp'
+const img8 = 'https://i.ibb.co/wRZ2yz6/img8.jpg'
 
 import instagram from './mediaimg/instagram.png'
 import x from './mediaimg/x.png'
 import linkedin from './mediaimg/linkedin.png'
 
 export const assets = {
+    post8: {
+        title: "Half Engineer 🤥 Half to Go !",
+        date: "25 June 2024",
+        image: img8,
+        description: "Completing 2 years of btech in computer science and engineering. 🎓",
+        links: "https://www.instagram.com/p/C8pXl4VSXdm/?img_index=1",
+        profilelink: "https://www.instagram.com/buddhadeb_koner/",
+        media: instagram,
+        likes: 0,
+    },
     post7: {
         title: "World Yoga Day",
         date: "21 June 2024",
         image: img7,
         description: "Bending under the stars and lights, finding balance in nature. 🌟🌳 #Arch",
         links: "https://www.instagram.com/p/C8cSJTGSB0o/?img_index=1",
-        profilelink: "https://www.instagram.com/p/C8cSJTGSB0o/?img_index=1",
+        profilelink: "https://www.instagram.com/buddhadeb_koner/",
         media: instagram,
         likes: 0,
     },
