@@ -137,7 +137,7 @@
 
 
 /* Desktop */
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
     .profile-container {
         max-width: 90%;
         height: auto;
@@ -154,7 +154,7 @@
     .super-follow-btn {
         padding: 10px 40px;
     }
-}
+} */
 
 /* Tablet */
 @media (max-width: 768px) {
@@ -167,8 +167,7 @@
 
     .profile-photo,
     .follow-me {
-        width: 100%;
-        justify-content: space-evenly;
+        width: fit-content;
         margin-bottom: 1rem;
     }
 
