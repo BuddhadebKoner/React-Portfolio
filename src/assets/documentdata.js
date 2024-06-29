@@ -4,6 +4,7 @@ export const documentdata = {
     xlink: "https://twitter.com/buddhadeb_koner",
     linkedinlink: "https://www.linkedin.com/in/buddhadeb-koner-8501b3231/",
     gitlink: "https://github.com/BuddhadebKoner",
+    instaLink: "https://www.instagram.com/buddhadeb.exe/",
 }
 
 export const profiledetails = {

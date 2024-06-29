@@ -35,25 +35,25 @@ export default function Profile() {
                      <a href={documentdata.fblink} target='_blank'>
                         <Dropdown.Item
                            className='dropdown-items'>
-                           Facebook
+                              <img src={assets.fb} alt="" />
                         </Dropdown.Item>
                      </a>
                      <a href={documentdata.xlink} target='_blank'>
                         <Dropdown.Item
                            className='dropdown-items'>
-                           X
+                           <img src={assets.x} alt="" />
                         </Dropdown.Item>
                      </a>
                      <a href={documentdata.linkedinlink} target='_blank'>
                         <Dropdown.Item
                            className='dropdown-items'>
-                           Linkedin
+                          <img src={assets.linkedin} alt="" />
                         </Dropdown.Item>
                      </a>
                      <a href={documentdata.gitlink} target='_blank'>
                         <Dropdown.Item
                            className='dropdown-items'>
-                           Github
+                           <img src={assets.github} alt="" />
                         </Dropdown.Item>
                      </a>
                   </Dropdown>

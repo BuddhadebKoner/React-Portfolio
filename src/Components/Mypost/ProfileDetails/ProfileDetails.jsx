@@ -16,9 +16,10 @@ export default function ProfileDetails(props) {
         </div>
         <div className="image-profile-threedot-container">
           <p>{postdate}</p>
-          <button>
+          <a href={Medialink}>
           <img src={assets.threeDot} className='post-profile-threedots' alt="" />
-          </button>
+          </a>
+          
         </div>
       </div>
     </>

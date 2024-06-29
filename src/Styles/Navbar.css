@@ -54,3 +54,53 @@
     display: none;
     width: 30px;
 }
+
+
+
+/* responsive */
+
+/* Desktop */
+@media (max-width: 1024px) {
+    .navbar-container {
+        padding: 0 10rem;
+    }
+
+    .super {
+        padding: 10px 30px;
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .navbar-container {
+        padding: 0 5rem;
+    }
+
+    .nav-links > a {
+        margin: 8px 8px;
+    }
+
+    .super {
+        padding: 10px 20px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+    .navbar-container {
+        padding: 0 1rem;
+        justify-content: space-between;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .navbar-toggle img {
+        display: block;
+    }
+
+    .super {
+        padding: 10px 15px;
+    }
+}

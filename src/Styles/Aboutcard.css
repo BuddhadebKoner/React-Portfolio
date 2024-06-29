@@ -1,9 +1,9 @@
-.about-container-fullbox{
+.about-container-fullbox {
   width: 100vw;
   height: fit-content;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .about-card {
@@ -92,4 +92,51 @@
   background-color: #f8f8f9;
   padding: 5px;
   border-radius: 5px;
+}
+
+
+
+
+/* Tablet */
+@media (max-width: 768px) {
+  .about-card {
+    width: 90%;
+    padding: 12px;
+  }
+
+  .about-heading {
+    font-size: 1.8rem;
+  }
+
+  .about-card p.description {
+    font-size: 14px;
+  }
+
+  .about-tags {
+    font-size: 11px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+  .about-container-fullbox{
+    padding: 0px 20px;
+  }
+  .about-card {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .about-heading {
+    font-size: 1.5rem;
+  }
+
+  .about-card p.description {
+    font-size: 13px;
+    line-height: 1.4;
+  }
+
+  .about-tags {
+    font-size: 10px;
+  }
 }

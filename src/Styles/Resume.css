@@ -33,15 +33,14 @@
     font-size: 2.5rem; 
     margin-bottom: 5px;
 }
-
 .job-title {
-    color: #666; /* Slightly lighter text color */
-    font-size: 1.2rem; /* Smaller font size */
+    color: #666;
+    font-size: 1.2rem;
 }
 
 .section-title {
-    color: #333; /* Dark text color */
-    font-size: 1.5rem; /* Medium font size */
+    color: #333;
+    font-size: 1.5rem;
     margin-bottom: 10px;
 }
 
@@ -49,27 +48,137 @@
 .experience-item,
 .skill-item,
 .contact-item {
-    color: #555; /* Slightly darker text color */
-    font-size: 1.1rem; /* Medium font size */
+    color: #555;
+    font-size: 1.1rem;
 }
 
 .responsibilities-title {
-    color: #333; /* Dark text color */
-    font-weight: bold; /* Bold font weight */
-    margin-top: 15px; /* Add space above */
+    color: #333;
+    font-weight: bold;
+    margin-top: 15px;
 }
 
 .responsibility-item {
-    color: #555; /* Slightly darker text color */
-    font-size: 1rem; /* Small font size */
-    margin-left: 20px; /* Indentation for responsibilities */
+    color: #555;
+    font-size: 1rem;
+    margin-left: 20px;
 }
 
 .contact-item a {
-    color: #007bff; /* Blue color for links */
-    text-decoration: none; /* Remove underline */
+    color: #007bff;
+    text-decoration: none;
 }
 
 .contact-item a:hover {
-    text-decoration: underline; /* Add underline on hover */
+    text-decoration: underline;
+}
+
+
+
+/* Desktop */
+@media (max-width: 1024px) {
+    .resume-container {
+        width: 80%;
+        padding: 40px;
+    }
+
+    .name {
+        font-size: 2rem;
+    }
+
+    .job-title {
+        font-size: 1rem;
+    }
+
+    .section-title {
+        font-size: 1.3rem;
+    }
+
+    .education-item,
+    .experience-item,
+    .skill-item,
+    .contact-item {
+        font-size: 1rem;
+    }
+
+    .responsibilities-title {
+        margin-top: 10px;
+    }
+
+    .responsibility-item {
+        margin-left: 15px;
+        font-size: 0.9rem;
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .resume-container {
+        width: 90%;
+        padding: 30px;
+    }
+
+    .name {
+        font-size: 1.8rem;
+    }
+
+    .job-title {
+        font-size: 0.9rem;
+    }
+
+    .section-title {
+        font-size: 1.2rem;
+    }
+
+    .education-item,
+    .experience-item,
+    .skill-item,
+    .contact-item {
+        font-size: 0.9rem;
+    }
+
+    .responsibilities-title {
+        margin-top: 8px;
+    }
+
+    .responsibility-item {
+        margin-left: 12px;
+        font-size: 0.8rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+    .resume-container {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .name {
+        font-size: 1.5rem;
+    }
+
+    .job-title {
+        font-size: 0.8rem;
+    }
+
+    .section-title {
+        font-size: 1rem;
+    }
+
+    .education-item,
+    .experience-item,
+    .skill-item,
+    .contact-item {
+        font-size: 0.8rem;
+    }
+
+    .responsibilities-title {
+        margin-top: 6px;
+    }
+
+    .responsibility-item {
+        margin-left: 10px;
+        font-size: 0.7rem;
+    }
 }

@@ -97,3 +97,54 @@
     font-size: 14px;
     margin-top: 5px;
 }
+
+
+
+/* Tablet */
+@media (max-width: 768px) {
+    .feedback-container {
+        width: 90%;
+        padding: 12px;
+    }
+
+    .feedback-textare-section {
+        font-size: 18px;
+        min-height: 100px;
+    }
+
+    .feedback-input-section,
+    .feedback-textare-section {
+        padding: 6px 12px;
+    }
+
+    .feedback-btn {
+        padding: 8px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+    .feedsec-main-full-box{
+        padding: 0px 20px;  
+    }
+    .feedback-container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .feedback-input-section,
+    .feedback-textare-section {
+        font-size: 16px;
+        padding: 6px 10px;
+    }
+
+    .feedback-textare-section {
+        min-height: 80px;
+    }
+
+    .feedback-btn {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+    }
+}

@@ -22,3 +22,39 @@
 .normal-link{
     color: black;
 }
+
+
+/* Desktop */
+@media (max-width: 1024px) {
+    .feednavbar-container {
+        width: 50rem;
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .feednavbar-container {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .feednavbar-container > a {
+        font-size: 0.9rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+    .feednavbar-container {
+        width: 100%;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 0 10px 1rem 5px;
+        height: auto;
+    }
+
+    .feednavbar-container > a {
+        font-size: 0.8rem;
+    }
+}
