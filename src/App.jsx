@@ -20,7 +20,6 @@ export default function App() {
 
   const lenis = new Lenis()
 
-
   lenis.on('scroll', ScrollTrigger.update)
 
   gsap.ticker.add((time) => {
@@ -34,7 +33,6 @@ export default function App() {
       <Navbar />
       <Outlet />
       <Footer />
-      <Alartmess />
     </>
   )
 }

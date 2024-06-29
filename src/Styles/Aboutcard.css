@@ -66,6 +66,10 @@
 }
 
 .media-icons-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
   width: fit-content;
   height: fit-content;
   margin-top: 12px;

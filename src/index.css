@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 @font-face {
     font-family: 'Nunito';
     src: url(./assets/font/Nunito-VariableFont_wght.ttf);
@@ -11,7 +16,15 @@
     font-family: 'Nunito', 'Arial', 'Helvetica', sans-serif;
 }
 
+#root {
+    width: 100vw;
+    height: fit-content;
+    align-items: center;
+}
+
 body {
+    width: 100vw;
+    height: fit-content;
     overflow-x: hidden;
     overflow-y: auto;
 }
@@ -67,4 +80,23 @@ button {
 
 .margin-top {
     margin: 20px;
+}
+
+/*
+Responsive 3 screen sizes (mobile, tablet, desktop)
+mobile : 320px
+tablet : 768px
+desktop : 1024px
+*/
+
+
+/* Desktop */
+@media (max-width: 1024px) {}
+
+/* Tablet */
+@media (max-width: 768px) {}
+
+/* Mobile */
+@media (max-width: 500px) {
+
 }

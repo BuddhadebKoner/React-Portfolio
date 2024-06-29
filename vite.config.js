@@ -6,5 +6,10 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   // base: "/ExploreBuddhadebKoner",
   plugins: [react()],
+  server: {
+    host: '0.0.0.0',
+    port: 5173
+  }
+
 })
 // React-LearningReact-Learning

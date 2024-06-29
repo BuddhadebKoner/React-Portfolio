@@ -44,6 +44,8 @@
     width: fit-content;
     height: fit-content;
     flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
 }
 .langiage-icons >img{
     width: 50px;
